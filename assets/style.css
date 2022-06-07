@@ -1,11 +1,20 @@
 @import url("./styles/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,300&display=swap');
+
 
 :root{
     --background: #EBECEE;
     --whiteHeader: #FFFFFF; 
+    --textoMenu: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --tituloMenu: #EB9B00;
+    --fontePrincipal: "Poppins"; 
+
 
 }
 
 body{
     background-color: var(--background);
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
 }

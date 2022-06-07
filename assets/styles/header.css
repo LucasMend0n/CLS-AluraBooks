@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,300&display=swap');
+
 .cabecalho__menu-hamburguer{
     width: 24px;
     height: 24px;
@@ -12,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container{
@@ -23,3 +26,39 @@
 .container__imagem{
     padding: 1em;
 }
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__botao{
+    display: none;
+}
+.container__botao:checked ~ .lista-menu{
+    display: block;
+}
+
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+    background-color: var(--whiteHeader);
+    text-decoration: none;
+}
+.lista-menu__titulo{
+    color: var(--tituloMenu);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.lista-menu__link{
+    background: var(--textoMenu);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;    
+}
+
+
