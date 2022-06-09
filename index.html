@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./assets/style.css">
     <link rel="stylesheet" href="./assets/reset.css">
     <title>Alura Books</title>
@@ -39,5 +40,38 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" placeholder="Qual será sua próxima leitura?" class="banner__pesquisa">
     </section>
+    <section class="carrossel">
+        <h2 class="carrossel_titulo">Últimos Lançamentos</h2>
+
+
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="./assets/img/ApacheKafka.png" alt="Livro sobre ApacheKafka e Spring Boot no Alura Books"></div>
+              <div class="swiper-slide"><img src="./assets/img/Liderança.png" alt="Livro sobre liderança no Alura Books"></div>
+              <div class="swiper-slide"><img src="./assets/img/Javascript.png" alt="Livro sobre Javascript no Alura Books"></div>
+              <div class="swiper-slide"><img src="./assets/img/Guia Front-end.png" alt="Livro Guia Front-end no Alura Books"></div>
+              <div class="swiper-slide"><img src="./assets/img/Portugol.png" alt="Livro sobre Portugol no Alura Books"></div>
+            </div>
+
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+          </div>
+
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {spaceBetween: 10, slidesPerView: 3, pagination:{
+            el: '.swiper-pagination', type: 'bullets',
+        }
+        });
+    </script>
 </body>
 </html>
