@@ -83,5 +83,10 @@
     transition: 200ms;
 }
 
+.fimsection{
+    width: 100%;
+    background: var(--whiteHeader);
+}
+
 
 
