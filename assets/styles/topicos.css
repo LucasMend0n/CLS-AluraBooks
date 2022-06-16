@@ -1,7 +1,12 @@
 .topicos{
-    background: var(--azulTexto);
+    background: var(--whiteHeader);
     text-align: center;
-    padding: 1em;
+    padding: 1em 0 0 0;
+}
+
+.quadro{
+    background: var(--azulTexto);
+    padding: 1em 0;
 }
 .topicos__titulo{
     color: var(--whiteHeader);
