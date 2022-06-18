@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;1,300&display=swap');
+
 
 .cabecalho__menu-hamburguer{
     width: 24px;
@@ -61,4 +61,63 @@
     text-transform: uppercase;    
 }
 
+.container__botao{
+    display: none;
+}
+
+.container__titulo{
+    display: none;
+}
+
+.opcoes{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__titulo, .container__titulo--negrito{
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+    .container__titulo{
+        font-weight: 400;
+        display: block;
+    }
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+        justify-content: space-between;
+    }
+    .opcoes__item{
+        padding: 0 1em;
+    }
+
+    .opcoes__link{
+        font-weight: 400;
+        text-decoration: none;
+        color: var(--preto);
+        text-transform: uppercase;
+    }
+    #heart{
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    .container{
+        margin: 0 2em;
+    }
+
+    .opcoes__botao:checked ~ .lista-menu{
+        display: block;
+        width: auto;
+    }
+    .opcoes__botao{
+        display: none;
+    }
+}
 

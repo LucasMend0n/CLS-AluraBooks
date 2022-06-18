@@ -1,3 +1,4 @@
+
 @import url("./styles/header.css");
 @import url("./styles/banner.css");
 @import url("./styles/carrossel.css");
@@ -8,12 +9,14 @@
 
 :root{
     --background: #EBECEE;
+    --preto: #000000;
     --whiteHeader: #FFFFFF; 
     --textoMenu: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --tituloMenu: #EB9B00;
     --fontePrincipal: "Poppins"; 
     --azulTexto: #002F52;
     --cinza: (#f9f9f9);
+    --fonte-secundaria: "Josefin Sans";
 
 
 }
