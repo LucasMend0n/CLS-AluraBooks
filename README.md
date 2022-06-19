@@ -6,7 +6,8 @@ Este é um projeto feito com base no curso da Alura para design web responsivo, 
 >Para abrir o código:
 
 ```
-// PROJETO AINDA EM DESENVOLVIMENTO!
+// PROJETO EM DESENVOLVIMENTO!
 
 Sem versão desktop ainda
+Versão de tablet não finalizada
 ```
