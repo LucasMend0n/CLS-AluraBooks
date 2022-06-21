@@ -41,7 +41,6 @@
 
     .banner__pesquisa{
         width: 50%;
-        margin: 1.5em 0;
     }
 
     .banner__titulo{
@@ -49,6 +48,10 @@
     }
     .banner__texto{
         font-weight: 500;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 4em;
     }
 
 }
