@@ -2,9 +2,12 @@
 
 Este é um projeto feito com base no curso da Alura para design web responsivo, usando como base a metodologia mobile first
 
+
 >Para abrir o código:
 
 ```
-Baixe o arquivo .zip e inicie num navegador
+// PROJETO EM DESENVOLVIMENTO!
 
+Sem versão desktop ainda
+Versão de tablet não finalizada
 ```
