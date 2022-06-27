@@ -64,3 +64,18 @@ hr{
 
     }
 }
+
+@media screen and (min-width:1728px){
+    .rodape__grupo{
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
+
+    .rodape__secao{
+        padding-right: 10vw;
+    }
+
+    .rodape__titulo{
+        padding-left: 10vw;
+    }
+}
